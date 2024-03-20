@@ -1,0 +1,68 @@
+vi index.txt
+git add .
+$ git commit -m "create indes file"
+$ git branch feature
+$ git checkout feature
+vi feature.txt
+git add.
+$ git commit -m "work in progress"
+$ git index.txt
+git checkout main
+git stash
+Git status
+git stash list
+git checkout main
+git checkout feature
+git stash pop
+$ git stash list
+$ git add .
+git commit -m "create indes file changed in feature"
+Sl. No Experi
+3
+Vi pgm6.c
+Git add pgm6.c
+Git commit –m “program 6”
+Git branch feature-branch
+Git checkout feature-branch
+Vi pgm6b.c
+Git add pgm6b.c
+Git commit –m “pgm 6b feature branch”
+git checkout master
+git merge --no-ff feature-branch -m "Your custom merge commit message"
+6
+vi one.c
+git add one.c
+git commit-m"create one.c"
+vi two,c
+git add two.c
+git commit -m"create two.c"
+git log
+git status
+git branch
+git branch b1
+git branch b2
+git branch
+git checkout b1
+git status
+echo "in branch b1 hello world ">>lab3.c
+echo "in branch b1 branching world">>lab4.c
+git add lab3.c
+git add lab4.c
+git commit -m"lab 3 for b1"
+git cheskout b2
+git branch
+echo "in branch b2 hello world">>lab5.c
+echo "in branch b2 branching world ">>lab6.c
+git add lab5.c
+git add lab6.c
+git commit -m"lab 5 and lab 6 in branch b2"
+git checkout master
+git diff main..b1
+git merge b1
+git branch --merged
+git branch -d b1
+git branch -d b2
+git merge b2
+git branch --merged
+git branch -d b2
+2
